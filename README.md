@@ -14,7 +14,7 @@ LLM 시대의 핵심 기술인 RAG(Retrieval-Augmented Generation)를 실전 중
 - 왜 RAG가 실제 서비스/해커톤/사내봇의 기본 구조가 되는가?
 - 문제 유형별 RAG 디자인 패턴 정리
 - Agent RAG·Graph RAG·Self-RAG 등 고급 패턴 개념 소개
-- 실습(Agent RAG 미니 실습 + Graph RAG 맛보기)
+- 실습(RAG 맛보기)
 
 세션의 핵심 목표는 **실무에서 바로 적용할 수 있는 RAG 기본 골격 이해**입니다.
 
@@ -28,25 +28,6 @@ LLM 시대의 핵심 기술인 RAG(Retrieval-Augmented Generation)를 실전 중
 6. **Q&A (5분)**  
 
 중간에 **Agent RAG / Graph RAG 실습 코드**를 보여주는 데모가 포함.
-
-## 📁 3. Repository 구조
-```
-/rag-seminar/
-│
-├── README.md
-├── slides/
-├── examples/
-│   ├── basic_rag/
-│   ├── multi_query/
-│   ├── parent_child/
-│   ├── agent_rag/
-│   └── graph_rag/
-├── data/
-│   ├── sample_docs/
-│   └── embeddings/
-└── app/
-└── streamlit_demo.py
-```
 
 ---
 
